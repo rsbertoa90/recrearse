@@ -7,7 +7,7 @@
             O escribinos al <span class="fab fa-whatsapp"></span> 11 2408 5256
         </span>
 
-        <a href="https://api.whatsapp.com/send?phone=5492920485028&text=Hola!%20te%20escribo%20desde%20la%20pagina%20de%20MoM%20Web" target="_blank" rel="noopener" class="phone">
+        <a v-if="$mq!='lg'" href="https://api.whatsapp.com/send?phone=5492920485028&text=Hola!%20te%20escribo%20desde%20la%20pagina%20de%20MoM%20Web" target="_blank" rel="noopener" class="phone">
             O escribinos al <span class="fab fa-whatsapp"></span> 11 2408 5256
         </a>
 
