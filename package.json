@@ -1,0 +1,29 @@
+{
+  "name": "MoMWeb",
+  "version": "1.0.0",
+  "description": "MoM Web Servicios Digitales",
+  "author": "rsbertoa90",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "pm2s": "pm2 start --name 'redlimp.com' npm -- start"
+  },
+  "dependencies": {
+    "intersection-observer": "^0.7.0",
+    "nuxt": "^2.0.0",
+    "nuxt-mq": "^2.0.0",
+    "nuxt-webfontloader": "^1.1.0",
+    "v-lazy-image": "^1.3.2"
+  },
+  "devDependencies": {
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.4.1",
+    "node-sass": "^4.12.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.3.1"
+  }
+}
