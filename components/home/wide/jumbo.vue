@@ -1,7 +1,7 @@
 <template>
 <div class="spacing-for-jumbo">
     <div class="jumbo-container">
-        <img src="@/static/images/home-top.jpg" class="home-top-shadow" alt="Fondo">
+        <img src="@/static/images/home-top-compresed.jpg" class="home-top-shadow" alt="Fondo">
         <h2 class="big-text">
             Como ves tu negocio dentro de 5 años?
         </h2>
