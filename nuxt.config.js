@@ -15,6 +15,10 @@ export default {
     
     meta: [
       {
+        name : "google-site-verification",
+        content: "k8Gh3Pho_qE5xYo_S078mJoy4n1KjIIHzb42i3783YI"
+      },
+      {
         name: "theme-color",
         content: "#3A2BB3"
       },
@@ -51,10 +55,10 @@ export default {
   */
   plugins: [
     "./plugins/v-lazy-image.js",
-  /*   {
+     {
       src: "./plugins/ga.js",
       ssr: false
-    } */
+    } 
   ],
   /*
   ** Nuxt.js dev-modules
