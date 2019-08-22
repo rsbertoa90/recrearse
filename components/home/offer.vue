@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex flex-column align-items-center">
+    <div class="d-flex flex-column align-items-center margintop">
         <h3 class="text-center">
             Aumenta tus ingresos teniendo presencia y desarrollo Online
         </h3>
@@ -53,6 +53,9 @@
 
 
 <style lang="scss" scoped>
+.margintop{
+    margin-top:40px;
+}
 h4{
     font-size: 18px;
     color:#3A2BB3;
