@@ -4,7 +4,7 @@
         <smalljumbo v-if="$mq!='lg'"></smalljumbo>
         <wideoffer ></wideoffer>
         <iframeForm ></iframeForm>
-        <clients></clients>
+    <!--     <clients></clients> -->
         <team></team>
     </div>
 </template>

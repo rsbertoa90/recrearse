@@ -35,6 +35,15 @@ export default {
       { hid: 'description', name: 'description', content: 'MoM Web Servicios Digitales.' }
     ],
     link: [
+      {
+        rel: "preconnect",
+        href: "https://use.fontawesome.com"
+      },
+      {
+        rel: "preconnect",
+        href: "https://fonts.googleapis.com"
+      },
+     
       { rel: 'canonical', href: 'https://momwebdigital.com' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
