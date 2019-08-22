@@ -12,7 +12,9 @@ export default {
   
   head: {
     title: 'MoM Web',
-    
+      htmlAttrs: {
+        lang: 'es',
+      },
     meta: [
       {
         name : "google-site-verification",

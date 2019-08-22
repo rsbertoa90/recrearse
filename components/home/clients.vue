@@ -3,15 +3,15 @@
     <h3>Algunos de nuestros clientes</h3>
     <div class="row mt-4">
         <a  href="https://mayoristamaju.com" target="_blank" title="Mayorista Maju" class="col-12 col-lg-3 logo-container">
-            <img src="@/assets/images/maju.png" alt="Mayorista Maju">
+            <img src="@/assets/images/maju.png" rel="dofollow" alt="Mayorista Maju">
         </a>
-        <a href="https://mayoristadelmate.com" target="_blank" title="Mayorista Del Mate"  class="col-12 col-lg-3 logo-container">
+        <a href="https://mayoristadelmate.com" rel="dofollow" target="_blank" title="Mayorista Del Mate"  class="col-12 col-lg-3 logo-container">
             <img src="@/assets/images/delmate.png" alt="Mayorista del Mate">
         </a>
-        <a href="https://matesfabi.com" target="_blank" title="Mates Fabi"  class="col-12 col-lg-3 logo-container">
+        <a href="https://matesfabi.com" rel="dofollow" target="_blank" title="Mates Fabi"  class="col-12 col-lg-3 logo-container">
             <img src="@/assets/images/matesfabi.png" alt="Mates Fabi ">
         </a>
-        <a  href="https://redlimp.com" target="_blank" title="Mayorista Redlimp" class="col-12 col-lg-3 logo-container">
+        <a  href="https://redlimp.com" rel="dofollow" target="_blank" title="Mayorista Redlimp" class="col-12 col-lg-3 logo-container">
             <img src="@/assets/images/redlimp.png" alt="Mayorista Redlimp">
         </a>
     </div>
