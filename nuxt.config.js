@@ -16,6 +16,10 @@ export default {
 
   },
 
+  workbox:{
+    offlinePage:'/offline'
+  },
+
 
   head: {
     title: 'MoM Web',
