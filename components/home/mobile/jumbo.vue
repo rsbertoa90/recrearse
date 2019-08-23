@@ -7,7 +7,7 @@
         Estas sacando ganancia del Mundo Digital?
     </h3>
      <div class="jumbo-container">
-        <img src="@/static/images/home-top-small.png" alt="Fondo">
+        <img src="@/static/images/home-top-small.jpg" alt="Fondo">
         
         <h1 class="logo" id="logo">
             <img src="@/static/images/logo.png" alt="MoM Web Servicios Digitales">
@@ -50,6 +50,9 @@ export default {
         }
 
     .jumbo-container{
+        margin-bottom:25px;
+        margin-top:20px;
+        box-shadow: 0px 5px 20px #0009;
         min-width:100vw;
        // margin-top:-20px;
         position:relative;
