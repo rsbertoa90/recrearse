@@ -12,6 +12,7 @@
     "pm2s": "pm2 start --name 'momwebdigital.com' npm -- start"
   },
   "dependencies": {
+    "@nuxtjs/pwa": "^3.0.0-beta.16",
     "intersection-observer": "^0.7.0",
     "nuxt": "^2.0.0",
     "nuxt-mq": "^2.0.0",

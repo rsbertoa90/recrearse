@@ -9,7 +9,14 @@ export default {
     /* host: '0.0.0.0', */ // default: localhost
   },
 
-  
+  manifest: {
+    name: 'MoM Web',
+    lang: 'es',
+    theme_color: '#3A2BB3',
+
+  },
+
+
   head: {
     title: 'MoM Web',
       htmlAttrs: {
@@ -94,6 +101,8 @@ export default {
     },
   ],
     "nuxt-webfontloader",
+    '@nuxtjs/pwa',
+    
   ],
 
 webfontloader: {
@@ -117,5 +126,7 @@ webfontloader: {
     */
     extend (config, ctx) {
     }
-  }
+  },
+
+  
 }
