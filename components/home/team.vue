@@ -7,21 +7,21 @@
         <div class=" row fotos-row">
             <div class="col-12 col-lg-4 team-member">
                 <div class="foto-container">
-                    <img src="@/assets/images/gisella.jpeg" alt="Gisella Coronel">
+                    <v-lazy-image src="@/assets/images/gisella.jpeg" alt="Gisella Coronel"/>
                 </div>
                 <h3>Gisella Coronel</h3>
                 <span>Marketing Digital</span>
             </div>
             <div class="col-12 col-lg-4 team-member mt-4 mt-lg-0">
                 <div class="foto-container">
-                    <img src="@/assets/images/rodrigo.jpeg" alt="Rodrigo Bertoa">
+                    <v-lazy-image src="@/assets/images/rodrigo.jpeg" alt="Rodrigo Bertoa"/>
                 </div>
                 <h3>Rodrigo Bertoa</h3>
                 <span>Desarrollo Web</span>
             </div>
             <div class="col-12 col-lg-4 team-member mt-4 mt-lg-0">
                 <div class="foto-container">
-                    <img src="@/assets/images/romina.jpeg" alt="Romina Horat">
+                    <v-lazy-image src="@/assets/images/romina.jpeg" alt="Romina Horat"/>
                 </div>
                 <h3>Romina Horat</h3>
                 <span>Diseño Web</span>
