@@ -17,7 +17,7 @@ export default {
   },
 
   workbox:{
-    offlinePage:'/offline'
+    offlinePage:'/offline',
   },
 
 
