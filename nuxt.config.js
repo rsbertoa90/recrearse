@@ -22,6 +22,7 @@ export default {
     },
     offlinePage:'/offline.html',
     offlineAssets:[
+      '/offline.html',
       '/favicon.ico'
     ]
     
