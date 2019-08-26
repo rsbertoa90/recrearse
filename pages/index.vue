@@ -9,6 +9,18 @@ import appHome from '@/components/home/Home.vue'
 export default {
   components: {
     appHome
+  },
+  mounted()
+  {
+    var online = this.$nuxt.isOnLine;
+    if(!online)
+    {
+      //console.log('OFFLINE!');
+      window.location.replace('/offline.html');
+    }else{
+      //console.log('online')
+    }
+
   }
 }
 </script>
