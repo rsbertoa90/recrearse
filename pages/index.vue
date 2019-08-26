@@ -12,7 +12,7 @@ export default {
   },
   mounted()
   {
-    var online = this.$nuxt.isOnLine;
+    var online = navigator.onLine;
     if(!online)
     {
       //console.log('OFFLINE!');
