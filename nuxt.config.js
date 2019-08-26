@@ -17,7 +17,14 @@ export default {
   },
 
   workbox:{
-    offlinePage:'/offline',
+    config:{
+      debug:true
+    },
+    offlinePage:'/offline.html',
+    offlineAssets:[
+      '/favicon.ico'
+    ]
+    
   },
 
 
