@@ -1,42 +1,36 @@
 
 export default {
-  mode: 'universal',
+  mode: "universal",
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   server: {
-    port: 3004, // default: 3000
+    port: 3004 // default: 3000
     /* host: '0.0.0.0', */ // default: localhost
   },
 
   manifest: {
-    name: 'MoM Web',
-    lang: 'es',
-    theme_color: '#3A2BB3',
-
+    name: "MoM Web",
+    lang: "es",
+    theme_color: "#3A2BB3"
   },
 
-  workbox:{
-    config:{
-      debug:true
+  workbox: {
+    config: {
+      debug: true
     },
-    offlinePage:'/offline.html',
-    offlineAssets:[
-      '/offline.html',
-      '/favicon.ico'
-    ]
-    
+    offlinePage: "/offline.html",
+    offlineAssets: ["/offline.html", "/favicon.ico"]
   },
-
 
   head: {
-    title: 'MoM Web',
-      htmlAttrs: {
-        lang: 'es',
-      },
+    title: "MoM Web",
+    htmlAttrs: {
+      lang: "es"
+    },
     meta: [
       {
-        name : "google-site-verification",
+        name: "google-site-verification",
         content: "k8Gh3Pho_qE5xYo_S078mJoy4n1KjIIHzb42i3783YI"
       },
       {
@@ -48,10 +42,14 @@ export default {
         content: "@/static/images/logo.png"
       },
       { property: "og:title", content: "MoM Web Servicios Digitales" },
-      
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'MoM Web Servicios Digitales.' }
+
+      { charset: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      {
+        hid: "description",
+        name: "description",
+        content: "MoM Web Servicios Digitales."
+      }
     ],
     link: [
       {
@@ -62,83 +60,87 @@ export default {
         rel: "preconnect",
         href: "https://fonts.googleapis.com"
       },
-     
-      { rel: 'canonical', href: 'https://momwebdigital.com' },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+
+      { rel: "canonical", href: "https://momwebdigital.com" },
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
     ]
   },
   /*
-  ** Customize the progress-bar color
-  */
-  loading: { color: '#fff' },
+   ** Customize the progress-bar color
+   */
+  loading: { color: "#fff" },
   /*
-  ** Global CSS
-  */
+   ** Global CSS
+   */
   css: [
     "@/assets/css/bootstrap.min.css",
     "@/assets/css/reset.css",
-    "@/assets/css/animate.css",
-  
+    "@/assets/css/animate.css"
   ],
   /*
-  ** Plugins to load before mounting the App
-  */
+   ** Plugins to load before mounting the App
+   */
   plugins: [
     "./plugins/v-lazy-image.js",
-     {
+    {
       src: "./plugins/ga.js",
       ssr: false
-    } 
+    }
   ],
   /*
-  ** Nuxt.js dev-modules
-  */
-  devModules: [
-    
-  ],
+   ** Nuxt.js dev-modules
+   */
+  devModules: [],
   /*
-  ** Nuxt.js modules
-  */
+   ** Nuxt.js modules
+   */
   modules: [
     [
-    "nuxt-mq",
-    {
-      // Default breakpoint for SSR
-      defaultBreakpoint: "default",
-      breakpoints: {
-        sm: 450,
-        md: 1250,
-        lg: Infinity
+      "nuxt-mq",
+      {
+        // Default breakpoint for SSR
+        defaultBreakpoint: "default",
+        breakpoints: {
+          sm: 450,
+          md: 1250,
+          lg: Infinity
+        }
       }
-    },
-  ],
+    ],
     "nuxt-webfontloader",
-    '@nuxtjs/pwa',
-    
+    "@nuxtjs/onesignal",
+    "@nuxtjs/pwa",
   ],
 
-webfontloader: {
-  google: {
-    families: ["Rubik"] //Loads Lato font with weights 400 and 700
-  },
-  custom: {
-    families: ["fontawesome"],
-    urls: ["https://use.fontawesome.com/releases/v5.8.2/css/all.css"]
+  oneSignal: {
+  init: {
+    appId: '5a1df689-8c29-44bc-af1c-6e5c85067326',
+    allowLocalhostAsSecureOrigin: true,
+    welcomeNotification: {
+        disable: true
+    }
   }
 },
 
 
 
-  /*
-  ** Build configuration
-  */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
+  webfontloader: {
+    google: {
+      families: ["Rubik"] //Loads Lato font with weights 400 and 700
+    },
+    custom: {
+      families: ["fontawesome"],
+      urls: ["https://use.fontawesome.com/releases/v5.8.2/css/all.css"]
     }
   },
 
-  
-}
+  /*
+   ** Build configuration
+   */
+  build: {
+    /*
+     ** You can extend webpack config here
+     */
+    extend(config, ctx) {}
+  }
+};
