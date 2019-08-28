@@ -109,20 +109,23 @@ export default {
     ],
     "nuxt-webfontloader",
     "@nuxtjs/onesignal",
-    "@nuxtjs/pwa",
+    "@nuxtjs/pwa"
   ],
 
   oneSignal: {
-  init: {
-    appId: '5a1df689-8c29-44bc-af1c-6e5c85067326',
-    allowLocalhostAsSecureOrigin: true,
-    welcomeNotification: {
+    init: {
+      appId: "a1761b13-d95b-44a0-a73a-6cc61e1abfa1",
+      allowLocalhostAsSecureOrigin: true,
+      welcomeNotification: {
         disable: true
-    }
-  }
-},
+      }
+    },
+    // Use CDN
+    cdn: true,
 
-
+    // Use any custom URL
+    OneSignalSDK: 'https://cdn.onesignal.com/sdks/OneSignalSDK.js'
+  },
 
   webfontloader: {
     google: {
