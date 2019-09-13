@@ -19,9 +19,13 @@ export default {
 
 <style>
 .app-container{
-  max-width: 99vw;
-  overflow: hidden;
+  width:99vw;
+  max-width: 1900px;
+ 
+  position:relative;
+  margin:auto;
 }
+
 .bot-space{
   width:100vw;
   height: 150px;

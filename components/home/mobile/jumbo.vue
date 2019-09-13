@@ -53,7 +53,7 @@ export default {
         margin-bottom:25px;
         margin-top:20px;
         box-shadow: 0px 5px 20px #0009;
-        min-width:100vw;
+        min-width:100%;
        // margin-top:-20px;
         position:relative;
         color:#fff;

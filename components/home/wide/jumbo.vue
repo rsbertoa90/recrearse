@@ -31,14 +31,21 @@ export default {
 }
 .spacing-for-jumbo{
   
-    width:100vw;
+    width:100%;
     height: 800px;
 }
+@media(min-width:1450px){
+    .spacing-for-jumbo{
+           max-height: 1100px;
+            height: 56vw;
+    }
+}
+
     .jumbo-container{
         position: absolute;
         left:0;
         top:0;
-        min-width:100vw;
+        min-width:100%;
         margin-top:-20px;
         color:#fff;
         .btn-contacto{

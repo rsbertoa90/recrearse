@@ -7,7 +7,7 @@
 
 <style lang="scss" scoped>
     .foot{
-        width:100vw;
+        width:100%;
         display: flex;
         justify-content: center;
         color:#fff;
