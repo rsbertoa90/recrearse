@@ -1,19 +1,19 @@
 <template>
 <div class="spacing-for-jumbo">
     <div class="jumbo-container">
-        <img src="@/static/images/home-top-compresed.jpg" class="home-top-shadow" alt="Fondo">
+        <img src="@/static/images/home-top.jpg" class="home-top-shadow" alt="Fondo">
         <h2 class="big-text">
-            Como ves tu negocio dentro de 5 años?
+            Descubrí y trascende los nudos de tu historia
         </h2>
         <h3 class="small-text">
-            Estas sacando ganancia del Mundo Digital?
+            Bioneurodesprogramacion <br/> Terapia Complementaria
         </h3>
         <h1 class="logo" id="logo">
-            <img src="@/static/images/logo.png" alt="MoM Web Servicios Digitales">
+            <img src="@/static/images/logo.png" alt="Recrearse talleres bioneuro">
         </h1>
-        <a class="btn-contacto" href="#formContacto">
+      <!--   <a class="btn-contacto" href="#formContacto">
             Contacto
-        </a>
+        </a> -->
     
     </div>
 </div>
@@ -47,7 +47,7 @@ export default {
         top:0;
         min-width:100%;
         margin-top:-20px;
-        color:#fff;
+        color:#D94A4A;
         .btn-contacto{
              display: flex;
             justify-content: center;
@@ -72,29 +72,31 @@ export default {
         }
         .big-text{
             position:absolute;
-            top:10%;
+            top:15%;
             right:5%;
-            font-size: 65px;
+            font-size: 45px;
             width:500px;
-            text-align: left;
+            text-align: center;
             text-shadow: 0px 3px 6px #666; 
             font-weight: bold;
+
         }
         .small-text{
             width:500px;
-            font-size: 45px;
+            font-size: 30px;
             font-weight: bold;
             text-shadow: 0px 1px 3px #666; 
             position: absolute;
             right:5%;
-            bottom:30%;
-            text-align: left;
+            top:40%;
+            text-align: center;
+
         }
 
         .logo{
             position:absolute;
-            bottom:10%;
-            left:10%;
+            top:60%;
+            right:14%;
         }
 
     }

@@ -1,22 +1,21 @@
 <template>
-<div class="spacing-for-jumbo">
-    <h2 class="big-text">
-        Como ves tu negocio dentro de 5 años?
-    </h2>
-    <h3 class="small-text">
-        Estas sacando ganancia del Mundo Digital?
-    </h3>
-     <div class="jumbo-container">
-        <img src="@/static/images/home-top-small.jpg" alt="Fondo">
-        
+<div >
+    <div class="jumbo-container">
+        <img src="@/static/images/home-top-small.jpg" class="home-top-shadow" alt="Fondo">
+        <h2 class="big-text">
+            Descubrí y trascende los nudos de tu historia
+        </h2>
+        <h3 class="small-text">
+            Bioneurodesprogramacion <br/> Terapia Complementaria
+        </h3>
         <h1 class="logo" id="logo">
-            <img src="@/static/images/logo.png" alt="MoM Web Servicios Digitales">
+            <img src="@/static/images/logo.png" alt="Recrearse talleres bioneuro">
         </h1>
-        <a href="https://api.whatsapp.com/send?phone=5492920485028&text=Hola!%20te%20escribo%20desde%20la%20pagina%20de%20MoM%20Web" target="_blank" rel="noopener" class="btn-contacto">
+      <!--   <a class="btn-contacto" href="#formContacto">
             Contacto
-        </a>
+        </a> -->
     
-    </div> 
+    </div>
 </div>
 </template>
 
@@ -27,49 +26,33 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .big-text{
-            margin:auto;
-            color:#3A2BB3;
-            font-size: 30px;
-            width:300px;
-            margin-top:25px;
-            text-align: left;
-            text-shadow: 0px 3px 6px #666; 
-            font-weight: bold;
-        }
-        .small-text{
-            margin:auto;
-            margin-top:25px;
-            color:#3A2BB3;
-            width:300px;
-            font-size: 26px;
-            font-weight: bold;
-            text-shadow: 0px 1px 3px #666; 
-            text-align: left;
-            font-weight: normal;
-        }
+.home-top-shadow{
+    box-shadow: 0px 10px 50px #0009;
+}
+.spacing-for-jumbo{
+  
+    width:100%;
+}
+
 
     .jumbo-container{
-        margin-bottom:25px;
-        margin-top:20px;
-        box-shadow: 0px 5px 20px #0009;
+        position: relative;
+        margin-bottom:30px;
         min-width:100%;
-       // margin-top:-20px;
-        position:relative;
-        color:#fff;
+        color:#D94A4A;
         .btn-contacto{
-            position:absolute;
-            bottom:45px;
-            right:37px;
-            width:100px;
-            display: flex;
+             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 18px;
+            position:absolute;
+            bottom:15%;
+            right:10%;
+            width:200px;
+            font-size: 30px;
             color:#FF7011;
             border: 5px solid #FF7011;
             background-color: #fff;
-            height: 45px;
+            height: 60px;
             transition:all .3s;
             &:hover{
                 transition:all .3s;
@@ -79,15 +62,33 @@ export default {
                 background-color: #FF7011;
             }
         }
-      
+        .big-text{
+            position:absolute;
+            top:15%;
+            right:5%;
+            font-size: 25px;
+            text-align: center;
+            text-shadow: 0px 3px 6px #666; 
+            font-weight: bold;
+
+        }
+        .small-text{
+        
+            font-size: 18px;
+            font-weight: bold;
+            text-shadow: 0px 1px 3px #666; 
+            position: absolute;
+            right:5%;
+            top:40%;
+            text-align: center;
+
+        }
 
         .logo{
-          
-            width: 170px;
-       //     height: 60;
-            position: absolute;
-            top: 45px;
-            right: 5px;
+            position:absolute;
+            bottom:5%;
+            left:5%;
+            width:150px;
         }
 
     }

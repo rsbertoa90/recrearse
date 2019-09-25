@@ -3,6 +3,9 @@
         <h3 class="subtitle">
             Nuestro equipo
         </h3>
+        <p class="text text-left ml-4">
+            Bioneurodesprogramadores Formados en la Escuela de Bioneurovida dirigida por Ana Paz
+        </p>
 
         <div class=" row fotos-row">
             <div class="col-12 col-lg-4 team-member">
@@ -10,21 +13,21 @@
                     <v-lazy-image v-bind:src="require('@/assets/images/gi.jpg')" alt="Gisella Coronel"/>
                 </div>
                 <h3>Gisella Coronel</h3>
-                <span>Marketing Digital</span>
+             
             </div>
             <div class="col-12 col-lg-4 team-member mt-4 mt-lg-0">
                 <div class="foto-container">
                     <v-lazy-image v-bind:src="require('@/assets/images/ro.jpg')" alt="Rodrigo Bertoa"/>
                 </div>
                 <h3>Rodrigo Bertoa</h3>
-                <span>Desarrollo Web</span>
+             
             </div>
             <div class="col-12 col-lg-4 team-member mt-4 mt-lg-0">
                 <div class="foto-container">
                     <v-lazy-image v-bind:src="require('@/assets/images/romi.jpg')" alt="Romina Horat"/>
                 </div>
                 <h3>Romina Horat</h3>
-                <span>Diseño Web</span>
+             
             </div>
         </div>
     </div>
@@ -45,15 +48,18 @@ span{
     font-size: 18px;
 }
 .foto-container{
+    border-radius: 50%;
+    overflow: hidden;
     width:249px;
     margin:auto;
     box-shadow: 2px 2px 2px #666;
     border:1px solid #000;
 }
 .subtitle{
-    color:#3A2BB3;
+    color:#D94A4A;
     font-weight: bold;
     font-size: 30px;
+    text-align: left;
 
 }
 

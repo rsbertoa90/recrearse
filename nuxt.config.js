@@ -5,12 +5,12 @@ export default {
    ** Headers of the page
    */
   server: {
-    port: 3004 // default: 3000
+    port: 3006 // default: 3000
     /* host: '0.0.0.0', */ // default: localhost
   },
 
   manifest: {
-    name: "MoM Web",
+    name: "Recrearse",
     lang: "es",
     theme_color: "#3A2BB3"
   },
@@ -24,7 +24,7 @@ export default {
   },
 
   head: {
-    title: "MoM Web",
+    title: "Recrearse talleres bioneuro",
     htmlAttrs: {
       lang: "es"
     },
@@ -41,14 +41,14 @@ export default {
         property: "og:image",
         content: "@/static/images/logo.png"
       },
-      { property: "og:title", content: "MoM Web Servicios Digitales" },
+      { property: "og:title", content: "Recrearse talleres bioneuro" },
 
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "MoM Web Servicios Digitales."
+        content: "Recrearse talleres bioneuro"
       }
     ],
     link: [
@@ -61,7 +61,7 @@ export default {
         href: "https://fonts.googleapis.com"
       },
 
-      { rel: "canonical", href: "https://momwebdigital.com" },
+      { rel: "canonical", href: "https://recrearse.com" },
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
     ]
   },
@@ -108,28 +108,14 @@ export default {
       }
     ],
     "nuxt-webfontloader",
-    "@nuxtjs/onesignal",
+   
     "@nuxtjs/pwa"
   ],
 
-  oneSignal: {
-    init: {
-      appId: "a1761b13-d95b-44a0-a73a-6cc61e1abfa1",
-      allowLocalhostAsSecureOrigin: true,
-      welcomeNotification: {
-        disable: true
-      }
-    },
-    // Use CDN
-    cdn: true,
-
-    // Use any custom URL
-    OneSignalSDK: 'https://cdn.onesignal.com/sdks/OneSignalSDK.js'
-  },
 
   webfontloader: {
     google: {
-      families: ["Rubik"] //Loads Lato font with weights 400 and 700
+      families: ["Rubik","Be Vietnam"] //Loads Lato font with weights 400 and 700
     },
     custom: {
       families: ["fontawesome"],
