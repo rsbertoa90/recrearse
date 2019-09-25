@@ -1,7 +1,7 @@
 {
-  "name": "MoMWeb",
+  "name": "Recrearse",
   "version": "1.0.0",
-  "description": "MoM Web Servicios Digitales",
+  "description": "Recrearse, talleres bioneurodesprogramacion",
   "author": "rsbertoa90",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "pm2s": "pm2 start --name 'momwebdigital.com' npm -- start"
+    "pm2s": "pm2 start --name 'recrearse.com' npm -- start"
   },
   "dependencies": {
     "@nuxtjs/onesignal": "^3.0.0-beta.16",
