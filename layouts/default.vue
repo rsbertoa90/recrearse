@@ -2,7 +2,7 @@
   <div class="app-container"> 
     <nuxt />
     <div class="bot-space"></div>
-    <momwebfooter></momwebfooter>
+  <!--   <momwebfooter></momwebfooter> -->
   </div>
 </template>
 
