@@ -4,7 +4,7 @@
             Nuestro equipo
         </h3>
         <p class="text text-left ml-4">
-            Bioneurodesprogramadores Formados en la Escuela de Bioneurovida dirigida por Ana Paz
+            Bioneurodesprogramadores formados en la Escuela de Bioneurovida dirigida por Ana Paz
         </p>
 
         <div class=" row fotos-row">

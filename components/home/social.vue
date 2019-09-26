@@ -1,6 +1,6 @@
 <template>
     <div  class="social-container">
-        <p class="text">Para mas contenido seguinos en redes sociales:</p>
+        <p class="text">Para más contenido seguinos en redes sociales:</p>
         <div class="logos">
             <div class="fb">
                 <a href="https://www.facebook.com/ReCrearseTalleresBioneuro" target="_blank" rel="noopener">

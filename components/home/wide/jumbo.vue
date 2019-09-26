@@ -3,7 +3,7 @@
     <div class="jumbo-container">
         <img src="@/static/images/home-top.jpg" class="home-top-shadow" alt="Fondo">
         <h2 class="big-text">
-            Descubrí y trascende los nudos de tu historia
+            Descubrí y trascendé los nudos de tu historia
         </h2>
         <h3 class="small-text">
             Bioneurodesprogramacion <br/> Terapia Complementaria
