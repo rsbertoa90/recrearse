@@ -35,6 +35,7 @@ export default {
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
     plugins: [
         { src: '@/plugins/p5.js', ssr: false },
+        { src: '@/plugins/vue-mq.js', ssr: true },
     ],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
@@ -82,6 +83,7 @@ export default {
             dark: true,
             themes: {
                 dark: {
+                    first: '#ff7f00',
                     primary: colors.blue.darken2,
                     accent: colors.grey.darken3,
                     secondary: colors.amber.darken3,
@@ -91,6 +93,7 @@ export default {
                     success: colors.green.accent3
                 },
                 light: {
+                    first: '#ff7f00',
                     primary: colors.blue.darken2,
                     accent: colors.grey.darken3,
                     secondary: colors.amber.darken3,

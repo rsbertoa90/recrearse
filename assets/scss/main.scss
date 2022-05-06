@@ -38,6 +38,19 @@
     font-weight: 900 !important;
 }
 
+.orange-text{
+    color: $orange;
+}
+.orange-bold{
+    color: $orange;
+    font-weight: bold;
+}
+.orange-bg, .bg-orange{
+    background-color: $orange;
+}
+.orange-border {
+    border: 2px solid $orange;
+}
 .grey-text{
     color:#121212;
 }
@@ -45,17 +58,35 @@
     background-color:#121212;
 }
 
-.fs-12{font-size: 12px;}
-.fs-14{font-size: 14px;}
-.fs-16{font-size: 16px;}
-.fs-18{font-size: 18px;}
-.fs-20{font-size: 20px;}
-.fs-22{font-size: 22px;}
-.fs-24{font-size: 24px;}
-.fs-26{font-size: 26px;}
-.fs-28{font-size: 28px;}
-.fs-30{font-size: 30px;}
-.fs-32{font-size: 32px;}
+.divider{
+    padding-bottom: 1px;
+}
+@media (min-width: 660px) {
+    .fs-lg-12{font-size: 12px;}
+    .fs-lg-14{font-size: 14px;}
+    .fs-lg-16{font-size: 16px;}
+    .fs-lg-18{font-size: 18px;}
+    .fs-lg-20{font-size: 20px;}
+    .fs-lg-22{font-size: 22px;}
+    .fs-lg-24{font-size: 24px;}
+    .fs-lg-26{font-size: 26px;}
+    .fs-lg-28{font-size: 28px;}
+    .fs-lg-30{font-size: 30px;}
+    .fs-lg-32{font-size: 32px;}
+}
+@media (max-width: 660px) {
+    .fs-sm-12{font-size: 12px;}
+    .fs-sm-14{font-size: 14px;}
+    .fs-sm-16{font-size: 16px;}
+    .fs-sm-18{font-size: 18px;}
+    .fs-sm-20{font-size: 20px;}
+    .fs-sm-22{font-size: 22px;}
+    .fs-sm-24{font-size: 24px;}
+    .fs-sm-26{font-size: 26px;}
+    .fs-sm-28{font-size: 28px;}
+    .fs-sm-30{font-size: 30px;}
+    .fs-sm-32{font-size: 32px;}
+}
 
 .w-100{width: 100%;}
 .w-75{width: 75%;}
