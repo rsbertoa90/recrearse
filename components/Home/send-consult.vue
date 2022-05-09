@@ -1,7 +1,7 @@
 <template>
 <v-row justify="center" no-gutters>
-    <v-col cols="12" lg="6" class="orange-border rounded-xl overflow-hidden">
-        <div class="spacer bg-orange"></div>
+    <v-col cols="12" lg="6" class="first-border rounded-xl overflow-hidden">
+        <div class="spacer bg-first"></div>
         <div class="pa-4">
             <div>
                 <span class="bold fs-24">
@@ -9,7 +9,7 @@
                 </span><br>
                 Envíanos tu consulta, te responderemos a la brevedad
             </div>
-            <v-divider class="divider bg-orange my-3"></v-divider>
+            <v-divider class="divider bg-first my-3"></v-divider>
             <div>
                 Correo
                 <v-text-field solo hide-details
@@ -17,7 +17,7 @@
                     :rules="[rules.required, rules.email]"
                 />
             </div>
-            <v-divider class="divider bg-orange my-3"></v-divider>
+            <v-divider class="divider bg-first my-3"></v-divider>
             <div>
                 En que te podemos ayudar
                 <v-textarea solo hide-details
@@ -25,7 +25,7 @@
                     :rules="[rules.required, rules.counter]"
                 />
             </div>
-            <v-divider class="divider bg-orange my-3"></v-divider>
+            <v-divider class="divider bg-first my-3"></v-divider>
             <div>
                 Si preferís podes dejar tu numero de WhatsApp para recibir la respuesta
                 <v-text-field solo hide-details
@@ -33,7 +33,7 @@
                     :rules="[rules.required]"
                 />
             </div>
-            <v-divider class="divider bg-orange my-3"></v-divider>
+            <v-divider class="divider bg-first my-3"></v-divider>
             <div>
                 toggler - Envíame una copia de mis respuestas.
                 <div class="d-flex justify-space-around">

@@ -38,24 +38,25 @@
     font-weight: 900 !important;
 }
 
-.orange-text{
-    color: $orange;
+.first-text,.text-first{
+    color: $first;
 }
-.orange-bold{
-    color: $orange;
+.first-bold.bold-first{
+    color: $first;
     font-weight: bold;
 }
-.orange-bg, .bg-orange{
-    background-color: $orange;
+.first-bg, .bg-first{
+    background-color: $first;
 }
-.orange-border {
-    border: 2px solid $orange;
+.first-border,.border.first {
+    border: 2px solid $first;
 }
-.grey-text{
-    color:#121212;
+
+.blue-text,.text-blue{
+    color: $blue !important;
 }
-.grey-bg{
-    background-color:#121212;
+.blue-bg,.bg-blue{
+    background-color: $blue !important;
 }
 
 .divider{

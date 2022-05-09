@@ -1,5 +1,5 @@
 <template>
-<v-app>
+<v-app class="bg-blue">
     <div class="sticky-0">
         <background class="absolute-0"/>
     </div>
