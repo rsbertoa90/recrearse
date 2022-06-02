@@ -30,12 +30,12 @@ export default {
             }
         },
         draw(sk) {
-            sk.background('#121212')
+            sk.background('#050e25')
             sk.noFill()
             sk.strokeWeight(2)
             //sk.circle(this.data*0.5,this.data*0.5,this.data)
             sk.fill(255)
-            sk.stroke('#ff7f00')
+            sk.stroke('#ee78f6')
             sk.strokeWeight(this.data*0.015)
             for (let n = 0; n < this.neurons.length; n++) {
                 const NEURON = this.neurons[n];
@@ -46,7 +46,9 @@ export default {
                 sk.circle(NEURON.x,NEURON.y,this.data*0.05)
                 NEURON.x += NEURON.vx
                 NEURON.y += NEURON.vy
-                if (sk.dist(this.data*0.5,this.data*0.5,NEURON.x,NEURON.y)>this.data*0.5-this.data*0.025){
+
+                let distance = sk.dist(this.data*0.5,this.data*0.5,NEURON.x,NEURON.y)
+                if ( distance > this.data*0.5-this.data*0.025){
                     NEURON.vx *= -1
                     NEURON.vy *= -1
                 }
