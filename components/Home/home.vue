@@ -26,7 +26,14 @@
         </v-col>
     </v-row>
     <texts />
-    <sendConsult class="mt-8" />
+    <v-row justify="center" class="px-4">
+        <v-col cols="12" lg="6">
+            <v-btn color="primary" block link target="_blank" :href="whatsappUrl">
+                HABLAR POR WHATSAPP
+            </v-btn>
+        </v-col>
+    </v-row>
+    <div class="bottom-space"></div>
 </div>
 </template>
 
@@ -44,7 +51,9 @@ export default {
         
     }},
     computed: {
-        
+        whatsappUrl(){
+            return 'https://api.whatsapp.com/send?phone=541130735034&text=Hola%20te%20escribo%20desde%20%20recrearse.com'
+        }
     },
     methods: {
         
@@ -55,6 +64,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.bottom-space{
+    width:100vw;
+    height:100px;
+    display:flex;
+}
 @media (min-width:660px) {
     .title{
         font-size: 56px !important;

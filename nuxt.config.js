@@ -2,6 +2,10 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
     // Global page headers: https://go.nuxtjs.dev/config-head
+    server: {
+        port: 3009
+    },
+
     head: {
         titleTemplate: '%s - recrearsefront',
         title: 'recrearsefront',

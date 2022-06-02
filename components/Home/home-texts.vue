@@ -28,9 +28,7 @@
     <v-col cols="11" lg="8">
         <p class="pl-lg-16 fs-lg-20 fs-sm-18">
             Podés contactarnos por WhatsApp al
-            <span class="first-bold">11 2408 5256</span>
-            o
-            <span class="first-bold">11 3073 5034</span>, o podes completar el siguiente formulario
+            <span class="first-bold">11 3073 5034</span>
         </p>
     </v-col>
 </v-row>

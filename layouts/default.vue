@@ -8,13 +8,15 @@
             <Nuxt />
         </v-container>
     </v-main>
+    <momfooter />
 </v-app>
 </template>
 
 <script>
+import momfooter from '@/components/layout/MOMFooter.vue'
 import background from '@/components/Home/background.vue'
 export default {
-    components:{background},
+    components:{background,momfooter},
     name: 'DefaultLayout'
 }
 </script>
